@@ -16,9 +16,9 @@
   { echo "<style type='text/css'>".$current_options['busiprof_custom_css']."</style>"; }
   ?>
 <div class="footer-section">
-  <div class="container" style="margin-left: auto; margin-right: auto ;">
+  <div class="container">
     <hr />
-    <div class="row">
+    <div class="row" style="margin-left: auto; margin-right: auto ;">
       <div class="span8">
         <?php _e(' Powered by ', 'busi_prof'); ?>
         <a href="<?php echo esc_url( __( 'http://wordpress.org/', 'busi_prof' ) ); ?>"><?php _e('WordPress', 'busi_prof'); ?></a>
