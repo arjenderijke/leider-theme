@@ -19,10 +19,12 @@
   <div class="container">
     <hr />
     <div class="row">
-      <div class="span8" style="margin-left: auto; margin-right: auto ;">
+      <div class="span8">
+        <div style="margin-left: auto; margin-right: auto ;">
         <?php _e(' Powered by ', 'busi_prof'); ?>
         <a href="<?php echo esc_url( __( 'http://wordpress.org/', 'busi_prof' ) ); ?>"><?php _e('WordPress', 'busi_prof'); ?></a>
         <?php echo $current_options['busiprof_copy_rights_text'] ; ?><?php if($current_options['footer_designedby'] != '' ) { ?>&nbsp;<a target="_blank" rel="nofollow" href="<?php echo $current_options['footer_url'] ?>"><?php echo $current_options['footer_designedby'] ?></a><?php } ?>
+      </div>
       </div>
     </div>
   </div>
