@@ -15,9 +15,9 @@
 <?php if($current_options['busiprof_custom_css']!='')
   { echo "<style type='text/css'>".$current_options['busiprof_custom_css']."</style>"; }
   ?>
-<div class="footer-section" style="margin-left: auto; margin-right: auto ;">
-  <hr />
-  <div class="container">
+<div class="footer-section">
+  <div class="container" style="margin-left: auto; margin-right: auto ;">
+    <hr />
     <div class="row">
       <div class="span8">
         <?php _e(' Powered by ', 'busi_prof'); ?>
