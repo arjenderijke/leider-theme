@@ -13,4 +13,6 @@
 
 /* =Theme customization starts here
 -------------------------------------------------------------- */
-.caret { display: none; }
+@media all {
+    .caret { display: none; }
+}
