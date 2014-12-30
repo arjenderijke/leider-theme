@@ -13,6 +13,4 @@
 
 /* =Theme customization starts here
 -------------------------------------------------------------- */
-@media all {
-    .caret { display: none; }
-}
+.dropdown .caret { display: none; }
