@@ -25,5 +25,15 @@ $template_uri=get_template_directory_uri(). '/images/default' ;
 				</div>
 			</div>	
 		</div>
+		<div class="span6 recent_blog">
+		     <h2>Facebook</h2>
+			<div class="row">
+				     <div class="span3">
+				     <div class="media-body">
+				     <p><?php _e("NO POST TO DISPLAY...",'busi_prof');?></p>
+				     </div>
+				     </div>
+                       </div>
+                </div>
 	</div>		
 </div>
