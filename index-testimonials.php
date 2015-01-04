@@ -23,7 +23,6 @@ $template_uri=get_template_directory_uri(). '/images/default' ;
 					<a href="#"><?php if($current_options['testimonials_name_two']!='') { echo $current_options['testimonials_name_two'];} ?> <span>(<?php if($current_options['testimonials_designation_two']!='') { echo $current_options['testimonials_designation_two'];} ?>)</span></a>
 					</div>
 				</div>
-			</div>	
 		</div>
 		<div class="span6 recent_blog">			
 			<h2><?php if($current_options['recent_blog_title']!='') { echo $current_options['recent_blog_title'];} ?><br><span><?php if($current_options['recent_blog_description']!='') { echo $current_options['recent_blog_description'];} ?></span></h2>
